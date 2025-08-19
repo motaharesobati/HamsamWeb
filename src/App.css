@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+
+.mainBackground{
+  width: 1640px;
+  height: 5854px;
+  border: red;
+  background-color: #ECEEF4;
+}
