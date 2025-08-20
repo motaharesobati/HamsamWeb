@@ -1,46 +1,46 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: BYekan;
+  src: url("./font/YekanBakhFaNum-Regular.ttf");
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: BYekanBold;
+  src: url("./font/YekanBakhFaNum-Bold.ttf");
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.persionName{
+  font-family: BYekanBold;
+  color: #2F5FBD;
+  font-size: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
 .mainBackground{
-  width: 1640px;
-  height: 5854px;
-  border: red;
+  width: 100%;
+  margin-inline: auto;
   background-color: #ECEEF4;
+  background-repeat: no-repeat;
+  background-size: cover; /* یا contain */
+
+}
+.listOfHeader{
+  font-family: BYekan;
+  font-size: 13px;
+  padding-right: 0px;
+}
+
+.hero{
+  display: grid;
+  justify-items: center;
+  overflow: visible;           
+}
+.hero-img{
+  margin-top: 40px;
+}
+.hero > *{
+  grid-area: 1 / 1;            
+}
+.sugg-bar{
+  background: url("./images/Search\ BG.png") no-repeat center / contain;
+  aspect-ratio: 960 / 210;    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transform: translateY(200%); 
 }

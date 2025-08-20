@@ -3,7 +3,7 @@ import '../App.css';
 import Header from "./Header";
 function Main(){
     return(
-    <div className="mainBackground">
+    <div>
         <Header/>
     </div>
     )
