@@ -8,6 +8,7 @@ import img6 from '../images/Frame 34.png';
 import img7 from '../images/aparat 3 (1).png';
 function SuggestionApp (){
     return(
+        <>
         <div className="container">
             <div className="row">
                 <div className="sugg-bar">
@@ -20,10 +21,10 @@ function SuggestionApp (){
                     <div className="col-md-1"><img src={img6}/></div>
                     <div className="col-md-1"><img src={img7}/></div>
                     <div className="col-md-1"></div>
-
                 </div>
             </div>
         </div>
+        </>
     )
 }
 export default SuggestionApp;

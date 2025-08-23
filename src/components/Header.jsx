@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import EnglishName from '../images/HAMSAM SUPER APP (1).png';
 import Tvimg from '../images/Hero BG Mask (1).png';
 import SuggestionApp from './sugApps';
-
+import TextExplain from "./TextExplain";
 function Header(){
     const list = ["خانه","دیوار","بازی و سرگرمی","حساب کاربری","پشتیبانی"]
     return(
@@ -29,6 +29,7 @@ function Header(){
                 </div>
             </div>
         </div>
+        <TextExplain />
 
         </div>
         </>
