@@ -1,5 +1,5 @@
 import React from "react";
-import '../App.css';
+import '../CssComponent/Header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import EnglishName from '../images/HAMSAM SUPER APP (1).png';
 import Tvimg from '../images/Hero BG Mask (1).png';
