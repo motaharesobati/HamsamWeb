@@ -1,0 +1,19 @@
+
+@font-face {
+  font-family: BYekan;
+  src: url("../font/YekanBakhFaNum-Regular.ttf");
+}
+@font-face {
+  font-family: BYekanBold;
+  src: url("../font/YekanBakhFaNum-Bold.ttf");
+}
+.showcaserow1 ,.showcaserow2{
+    gap: 5rem;
+    direction: rtl;
+    font-family: BYekanBold;
+  
+  }
+  .showcaserow1 img:hover, .showcaserow2 img:hover {
+    transform: scale(1.05); 
+  }
+  
