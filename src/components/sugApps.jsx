@@ -6,6 +6,7 @@ import img4 from '../images/Frame 70 (1).png';
 import img5 from '../images/لوگوی-فیلم-نت 1 (1).png';
 import img6 from '../images/Frame 34.png';
 import img7 from '../images/aparat 3 (1).png';
+import '../CssComponent/sugApps.css';
 function SuggestionApp (){
     return(
         <>

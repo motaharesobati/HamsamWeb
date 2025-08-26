@@ -4,8 +4,9 @@ import IconTwo from '../images/Group 106.png';
 import iconOfBox1 from '../images/gg_userlane.png';
 import iconOfBox2 from '../images/fluent-emoji-high-contrast_game-die.png';
 import iconOfBox3 from '../images/logos_android-vertical.png';
-import '../App.css';
-
+import logohamsam from '../images/all2 2 (1).png';
+import '../CssComponent/TextExplain.css';
+import Homeshowcase from './Homeshowcase';
 function TextExplain(){;
 return(
     <>
@@ -32,23 +33,26 @@ return(
         <div className="d-flex gap-5 justify-content-center">
             <div className="boxs">
                 <img src={iconOfBox1}/>
-                <div>ظاهر جذاب با کاربری آسان</div>
-                <div>دسترسی آسلان و سریع به اپلیکیشن های پرکاربرد</div>
+                <div className="TitrOfBox">ظاهر جذاب با کاربری آسان</div>
+                <div className="textOfBox col-md-9">دسترسی آسلان و سریع به اپلیکیشن های پرکاربرد</div>
             </div>
             <div className="boxs">
                 <img src={iconOfBox2}/>
-                <div>بازی های جذاب</div>
-                <div>حضور اپلیکیشن های ایرانی در کنار اپلیکیشن های برتر خارجی و بازی های جذاب</div>
+                <div className="TitrOfBox">بازی های جذاب</div>
+                <div className="textOfBox col-md-10">حضور اپلیکیشن های ایرانی در کنار اپلیکیشن های برتر خارجی و بازی های جذاب</div>
             </div>
             <div className="boxs">
                 <img src={iconOfBox3}/>
-                <div>سیستم عامل اندروید</div>
-                <div>تلویزیون‌های هوشمند سام، با دارا بودن سیستم عامل اندروید علاوه بر اتصال به اینترنت و امکان جستجو در صفحات وب، می‌توانند نرم افزارهای مختلف اندروید را دانلود، نصب و اجرا کنند</div>
+                <div className="TitrOfBox">سیستم عامل اندروید</div>
+                <div className="textOfBox col-md-10">تلویزیون‌های هوشمند سام، با دارا بودن سیستم عامل اندروید علاوه بر اتصال به اینترنت و امکان جستجو در صفحات وب، می‌توانند نرم افزارهای مختلف اندروید را دانلود، نصب و اجرا کنند</div>
             </div>
 
         </div>
        
     </div>
+    <div className="logohamsam"><img src={logohamsam}/></div>
+    <div className="sous-titre">تجربه استفاده از سوپر اپلیکیشن هم سام</div>
+    <Homeshowcase />
     </>
 )
 }
