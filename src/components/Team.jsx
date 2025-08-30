@@ -12,6 +12,7 @@ import imgOfTeam8 from '../images/Rectangle 80.png';
 import imgOfTeam9 from '../images/Rectangle 93 (1).png';
 import imgOfTeam10 from '../images/Rectangle 95 (1).png';
 import imgOfTeam11 from '../images/Rectangle 101 (1).png';
+import Footer from "./Footer";
 function Team(){
     return(
         <>
@@ -94,6 +95,7 @@ function Team(){
                 </div>
             </div>
         </div>
+        <Footer/>
         </>
     )
 }
