@@ -9,6 +9,7 @@ import gameItem5 from '../images/FLAPPY 1.png';
 import gameItem6 from '../images/MAR 1.png';
 import nextbutton from '../images/Group 19.png';
 import prevbutton from '../images/Group 18.png';
+import VODStreaming from "./VODStreaming";
 
 function Entertainment(){
     
@@ -45,6 +46,7 @@ function Entertainment(){
             <button className="mt-5" style={{border:'0px'}}><img src={prevbutton}/></button>
             </div>
         </div>
+        <VODStreaming />
         </>
     )
 }
