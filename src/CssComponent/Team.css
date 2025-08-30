@@ -31,9 +31,19 @@
   object-fit: cover;  
 }
 .blueBox{
+  position: absolute;
   width: 136px;
   height: 61px;
   background: #0065FF;
   border-radius: 20px;
-
+  margin-right: 35px;
+  margin-top: -40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name-team{
+  font-size: 15px;
+  margin-top: 30px;
 }

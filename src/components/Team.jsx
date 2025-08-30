@@ -22,22 +22,26 @@ function Team(){
                 <div className="col-md-1"></div>
                 <div className="box col-md-2">
                     <div><img src={imgOfTeam1}/>
-                        <div className="blueBox"></div>
+                        <div className="blueBox">Developer</div>
+                        <div className="name-team">Ali Zand</div>
                     </div>
                 </div>
                 <div className="box col-md-2">
                     <div><img src={imgOfTeam2}/>
-                        <div className="blueBox"></div>
+                        <div className="blueBox">Team Leader</div>
+                        <div className="name-team">Ehsan Nasiri</div>
                     </div>
                 </div>
                 <div className="box col-md-2">
                     <div><img src={imgOfTeam3}/>
-                        <div className="blueBox"></div>
+                        <div className="blueBox">CEO</div>
+                        <div className="name-team">Sajad Bagheri</div>
                 </div>
                 </div>
                 <div className="box col-md-2">
                     <div><img src={imgOfTeam4}/>
-                        <div className="blueBox"></div>
+                        <div className="blueBox">CEO</div>
+                        <div className="name-team">Bahram Borghei</div>
                     </div>
                 </div>
             </div>
@@ -45,40 +49,47 @@ function Team(){
                 <div className="col-md-1"></div>
                 <div className="box col-md-2">
                     <div><img src={imgOfTeam5}/>
-                        <div className="blueBox"></div>
+                        <div className="blueBox">Visual Designer</div>
+                        <div className="name-team">Babak Ahmadi</div>
                     </div>
                 </div>
                 <div className="box col-md-2">
                     <div><img src={imgOfTeam6}/>
-                        <div className="blueBox"></div>
+                        <div className="blueBox">Developer</div>
+                        <div className="name-team">Atieh Zahirodini</div>
                     </div>
                 </div>
                 <div className="box col-md-2">
                     <div><img src={imgOfTeam7}/>
-                        <div className="blueBox"></div>
+                        <div className="blueBox">Developer</div>
+                        <div className="name-team">Mahsa Hematti</div>
                     </div>
                 </div>
                 <div className="box col-md-2">
                     <div><img src={imgOfTeam8}/>
-                        <div className="blueBox"></div>
+                        <div className="blueBox">Developer</div>
+                        <div className="name-team">Ali Zand</div>
                     </div>
                 </div>
             </div>
-            <div className="row d-flex  gap-4" style={{textAlign: 'center',direction:'ltr'}}>
+            <div className="row d-flex  gap-4" style={{textAlign: 'center',direction:'rtl'}}>
                 <div className="col-md-1"></div>
                 <div className="box col-md-2">
                     <div><img src={imgOfTeam9}/>
-                        <div className="blueBox"></div>
+                        <div className="blueBox">Support</div>
+                        <div className="name-team">Kosar Mousavi</div>
                     </div>
                 </div>
                 <div className="box col-md-2">
                     <div><img src={imgOfTeam10}/>
-                        <div className="blueBox"></div>
+                        <div className="blueBox">Developer</div>
+                        <div className="name-team">Shahin Rasouli</div>
                     </div>
                 </div>
                 <div className="box col-md-2">
                     <div><img src={imgOfTeam11}/>
-                    <div className="blueBox"></div>
+                    <div className="blueBox">Marketing</div>
+                    <div className="name-team">Zahra Keyvan</div>
                     </div>
                 </div>
             </div>
