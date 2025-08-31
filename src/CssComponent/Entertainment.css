@@ -1,32 +1,32 @@
 @font-face {
-    font-family: BYekan;
-    src: url("../font/YekanBakhFaNum-Regular.ttf");
+  font-family: BYekan;
+  src: url("../font/YekanBakhFaNum-Regular.ttf");
+}
+@font-face {
+  font-family: BYekanBold;
+  src: url("../font/YekanBakhFaNum-Bold.ttf");
+}
+.icon{
+    text-align: center;
+    margin-top: 6rem;
   }
-  @font-face {
+  .Entertainment{
+    text-align: center;
+    color: #0065FF;
     font-family: BYekanBold;
-    src: url("../font/YekanBakhFaNum-Bold.ttf");
+    margin-top: 20px;
   }
-  .icon{
-      text-align: center;
-      margin-top: 6rem;
-    }
-    .Entertainment{
-      text-align: center;
-      color: #0065FF;
-      font-family: BYekanBold;
-      margin-top: 20px;
-    }
-  
-    .Games{
-      display: flex;
-      align-items: center;
-      width: 314px;
-      height: 166px;
-      background: #FCFCFC;
-      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-      border-radius: 28px;
-      margin-left: 40px;
-    }
-    .prevnextbutton{
-      text-align: center;
-    }
+
+  .Games{
+    display: flex;
+    align-items: center;
+    width: 314px;
+    height: 166px;
+    background: #FCFCFC;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 28px;
+    margin-left: 40px;
+  }
+  .prevnextbutton{
+    text-align: center;
+  }

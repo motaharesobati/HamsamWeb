@@ -19,14 +19,16 @@
     background-size: cover; /* یا contain */
   
   }
-  
-  .navbar-nav{
-    font-family: BYekan;
-    font-size: medium;
-  }
-  a:hover {
+  .listOfHeader li:hover{
     background-color: #0065FF;
+    width: 80px;
+    height: 41px;
     border-radius: 10px;
+    text-align: center;
+    justify-content: center;  
+    font-family: BYekan;
+    font-size: 13px;
+    padding-right: 0px;
   }
   
   .hero{
