@@ -19,16 +19,14 @@
     background-size: cover; /* یا contain */
   
   }
-  .listOfHeader li:hover{
-    background-color: #0065FF;
-    width: 80px;
-    height: 41px;
-    border-radius: 10px;
-    text-align: center;
-    justify-content: center;  
+  
+  .navbar-nav{
     font-family: BYekan;
-    font-size: 13px;
-    padding-right: 0px;
+    font-size: medium;
+  }
+  a:hover {
+    background-color: #0065FF;
+    border-radius: 10px;
   }
   
   .hero{
