@@ -7,7 +7,6 @@ import SuggestionApp from './sugApps';
 import TextExplain from "./TextExplain";
 function Header(){
     const list = ["خانه","دیوار","بازی و سرگرمی","حساب کاربری","پشتیبانی"]
-    console.log('moooooti')
     return(
         <>
         <div className="mainBackground">
