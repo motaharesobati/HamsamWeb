@@ -14,7 +14,7 @@ return(
         <div className="row" dir="rtl"style={{marginTop:"160px"}}>
             <div className="col-md-12 d-flex align-items-center" > 
             <div className="col-md-3"></div>
-            <div className="col-md-1" ><img src={IconTv}/></div>
+            <div className="col-md-1"style={{textAlign: "left"}}><img src={IconTv}/></div>
             <div className="titr col-md-1">بیش از</div>
             <div className="col-md-1"><img src={IconTwo}/></div>
             <div className="continuetitr col-md-4"> میلیون دستگاه تلویزیون سامسونگ فعال</div>
