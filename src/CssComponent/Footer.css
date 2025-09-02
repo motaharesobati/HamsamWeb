@@ -16,7 +16,7 @@
     justify-content: center;
     padding: 24px 16px;
 }
-.TitrOfFooter{
+.titr-of-footer{
     margin-top: 70px;
     color: white;
     font-family: BYekan;
@@ -41,13 +41,12 @@
     margin-top: 160px;
     text-align: left;
 }
-.imgFooter{
+.img-footer{
     margin-top: 110px;
     margin-left: 120px
 }
-.textoffooter{
-    width: 274px;
-    height: 37px;
+.text-of-footer{
+    margin-left: 125px;
     font-family: 'Cabin';
     font-style: normal;
     font-weight: 700;
@@ -56,7 +55,7 @@
     letter-spacing: -0.03em;
     color: #FFFFFF;
 }
-.imgSamsungSmart{
+.img-samsung-smart{
     margin-top: 10px;
     margin-left: 125px
 }

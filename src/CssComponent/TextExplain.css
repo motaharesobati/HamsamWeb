@@ -10,12 +10,12 @@
     font-family: BYekanBold;
     font-size: 18px;
   }
-  .continuetitr{
+  .continue-titr{
     font-family: BYekanBold;
     font-size: 18px;
   
   }
-  .maintext{
+  .main-text{
     font-size: 19px;
     font-family: BYekan;
     text-align: right;
@@ -36,12 +36,12 @@
   .boxs img{
     margin-top: 20px;
   }
-  .TitrOfBox{
+  .titr-of-box{
     font-family: BYekanBold;
     margin-top: 20px;
     font-size: 15px;
   }
-  .textOfBox{
+  .text-of-box{
     font-size: 12px;
     font-family: BYekan;
     text-align: justify;
@@ -50,7 +50,7 @@
     line-height: 21px;
     text-align-last: center;
   }
-  .logohamsam{
+  .logo-hamsam{
     text-align: center;
     margin-top: 40px;
   }

@@ -6,29 +6,27 @@
     font-family: BYekanBold;
     src: url("../font/YekanBakhFaNum-Bold.ttf");
   }
-  .persionName{
-    font-family: BYekanBold;
-    color: #2F5FBD;
-    font-size: 20px;
-  }
-  .mainBackground{
+  
+  .main-background{
     width: 100%;
     margin-inline: auto;
     background-color: #ECEEF4;
     background-repeat: no-repeat;
-    background-size: cover; /* یا contain */
+    background-size: cover;
   
   }
-  .listOfHeader li:hover{
+  .persion-name{
+    font-family: BYekanBold;
+    color: #2F5FBD;
+    font-size: 20px;
+  }
+  a:hover {
     background-color: #0065FF;
-    width: 80px;
-    height: 41px;
     border-radius: 10px;
-    text-align: center;
-    justify-content: center;  
+  }
+  .navbar-nav{
     font-family: BYekan;
-    font-size: 13px;
-    padding-right: 0px;
+    font-size: medium;
   }
   
   .hero{

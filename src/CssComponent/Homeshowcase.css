@@ -7,13 +7,14 @@
   font-family: BYekanBold;
   src: url("../font/YekanBakhFaNum-Bold.ttf");
 }
-.showcaserow1 ,.showcaserow2{
+.showcase-row-1 ,.showcase-row-2{
     gap: 5rem;
     direction: rtl;
     font-family: BYekanBold;
   
   }
-  .showcaserow1 img:hover, .showcaserow2 img:hover {
+  .showcase-row-1 img:hover, .showcase-row-2 img:hover {
     transform: scale(1.05); 
+    cursor: pointer;
   }
   

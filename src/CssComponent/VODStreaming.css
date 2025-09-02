@@ -6,20 +6,20 @@
     font-family: BYekanBold;
     src: url("../font/YekanBakhFaNum-Bold.ttf");
   }
-.VODframe{    
+.vod-frame{    
     width: 451px;
     height: 515px;
     background: #1F4590;
     border-radius: 4px;
 
 }
-.VODtitr{
+.vod-titr{
     text-align: center;
     color: #0065ff;
     font-size: 20px;
     font-family: BYekanBold;
 }
-.VODlogo{
+.vod-logo{
     text-align: center;
     margin-top: 95px;
 }
@@ -38,14 +38,14 @@
     line-height: 202%;
 
 }
-.sous-titr1{
+.sous-titr-1{
     font-size: 15px;
     color: white;
     font-family: BYekan;
     margin-right: 35px;
     line-height: 55px;
 }
-.sous-titr2{
+.sous-titr-2{
     font-size: 13px;
     color: white;
     font-family: BYekan;

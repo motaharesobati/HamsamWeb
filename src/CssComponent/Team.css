@@ -6,7 +6,7 @@
     font-family: BYekanBold;
     src: url("../font/YekanBakhFaNum-Bold.ttf");
   }
-.iconTeam{
+.icon-team{
     margin-top: 8rem;
     text-align: center;
 }
@@ -30,7 +30,7 @@
   height: 100%;
   object-fit: cover;  
 }
-.blueBox{
+.blue-box{
   position: absolute;
   width: 136px;
   height: 61px;
