@@ -1,11 +1,12 @@
 import React from "react";
-import img1 from '../images/Frame 33.png';
-import img2 from '../images/Frame 27.png';
-import img3 from '../images/Vector (7).png';
-import img4 from '../images/Frame 70 (1).png';
-import img5 from '../images/لوگوی-فیلم-نت 1 (1).png';
-import img6 from '../images/Frame 34.png';
-import img7 from '../images/aparat 3 (1).png';
+import img1 from '../images/Frame33.png';
+import img2 from '../images/Frame27.png';
+import img3 from '../images/Vector.png';
+import img4 from '../images/Frame70.png';
+import img5 from '../images/filmnet.png';
+import img6 from '../images/Frame34.png';
+import img7 from '../images/aparat3.png';
+import '../CssComponent/sugApps.css';
 function SuggestionApp (){
     return(
         <>

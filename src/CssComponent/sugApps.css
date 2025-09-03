@@ -1,0 +1,16 @@
+@font-face {
+  font-family: BYekan;
+  src: url("../font/YekanBakhFaNum-Regular.ttf");
+}
+@font-face {
+  font-family: BYekanBold;
+  src: url("../font/YekanBakhFaNum-Bold.ttf");
+}
+.sugg-bar{
+    background: url("../images/Search\ BG.png") no-repeat center / contain;
+    aspect-ratio: 960 / 210;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(200%); 
+  }

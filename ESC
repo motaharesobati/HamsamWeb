@@ -1,0 +1,50 @@
+[1mdiff --cc src/components/Header.jsx[m
+[1mindex 879d26a,4225228..0000000[m
+[1m--- a/src/components/Header.jsx[m
+[1m+++ b/src/components/Header.jsx[m
+[36m@@@ -6,30 -6,25 +6,34 @@@[m [mimport tvimg from '../images/HeroBGMask[m
+  import SuggestionApp from './sugApps';[m
+  import TextExplain from "./TextExplain";[m
+  function Header(){[m
+[32m++<<<<<<< HEAD[m
+[32m++=======[m
+[32m+     const list = ["خانه","دیوار","بازی و سرگرمی","حساب کاربری","پشتیبانی"][m
+[32m++>>>>>>> origin/master[m
+      return([m
+          <>[m
+[31m -        <div className="mainBackground">[m
+[32m +        <div className="main-background">[m
+          <div className="container" dir="rtl">[m
+              <div className="row align-items-center py-4" >[m
+[31m -                    <div className="col-md-3 persionName">سوپر اپلیکیشن هم سام</div>[m
+[32m +                    <div className="col-md-3 persion-name">سوپر اپلیکیشن هم سام</div>[m
+                      <div className="col-md-5">[m
+[31m -                        <ul className="listOfHeader  d-flex gap-0 list-unstyled m-0 justify-content-center">[m
+[31m -                            {list.map((item , index) => {[m
+[31m -                                return([m
+[31m -                                    <li key={index} className="col">{item}</li>[m
+[31m -                                )[m
+[31m -                            })}[m
+[31m -                        </ul>[m
+[32m +                    <nav className="navbar navbar-expand-lg navbar-light ">[m
+[32m +                        <button className="navbar-toggler" type="button"></button>[m
+[32m +                        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">[m
+[32m +                        <div className="navbar-nav">[m
+[32m +                            <a className="nav-item nav-link active" href="#">خانه <span class="sr-only"></span></a>[m
+[32m +                            <a className="nav-item nav-link" href="#">دیوار</a>[m
+[32m +                            <a className="nav-item nav-link" href="#">بازی و سرگرمی</a>[m
+[32m +                            <a className="nav-item nav-link" href="#">حساب کاربری</a>[m
+[32m +                            <a className="nav-item nav-link" href="#">تماس با ما</a>[m
+[32m +[m
+[32m +                        </div>[m
+[32m +                        </div>[m
+[32m +                    </nav>[m
+                      </div>[m
+[31m -                <div className="col-md-2" ><img src={EnglishName}/></div>[m
+[32m +                <div className="col-md-2" ><img src={englishName}/></div>[m
+                  <div className="hero">[m
+[31m -                    <img src={Tvimg} className="img-fluid hero-img" />[m
+[32m +                    <img src={tvimg} className="img-fluid hero-img" />[m
+                      <SuggestionApp/>[m
+                  </div>[m
+              </div>[m

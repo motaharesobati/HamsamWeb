@@ -1,0 +1,61 @@
+@font-face {
+  font-family: BYekan;
+  src: url("../font/YekanBakhFaNum-Regular.ttf");
+}
+@font-face {
+  font-family: BYekanBold;
+  src: url("../font/YekanBakhFaNum-Bold.ttf");
+}
+.titr{
+    font-family: BYekanBold;
+    font-size: 18px;
+  }
+  .continue-titr{
+    font-family: BYekanBold;
+    font-size: 18px;
+  
+  }
+  .main-text{
+    font-size: 19px;
+    font-family: BYekan;
+    text-align: right;
+    line-height: 45px;
+  }
+  .samsung{
+    color: #004EDA;
+  }
+  .boxs{
+    width: 311px;
+    height: 224px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6.2px rgba(0, 0, 0, 0.12);
+    border-radius: 18px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .boxs img{
+    margin-top: 20px;
+  }
+  .titr-of-box{
+    font-family: BYekanBold;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  .text-of-box{
+    font-size: 12px;
+    font-family: BYekan;
+    text-align: justify;
+    margin-right: 25px;
+    margin-top: 10px;
+    line-height: 21px;
+    text-align-last: center;
+  }
+  .logo-hamsam{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .sous-titre{
+    color: #0065FF;
+    font-size: 20px;
+    text-align: center;
+  }

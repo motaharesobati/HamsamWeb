@@ -1,0 +1,37 @@
+@font-face {
+  font-family: BYekan;
+  src: url("../font/YekanBakhFaNum-Regular.ttf");
+}
+@font-face {
+  font-family: BYekanBold;
+  src: url("../font/YekanBakhFaNum-Bold.ttf");
+}
+.icon{
+    text-align: center;
+    margin-top: 6rem;
+  }
+  .entertainment{
+    text-align: center;
+    color: #0065FF;
+    font-family: BYekanBold;
+    margin-top: 20px;
+  }
+
+  .games{
+    display: flex;
+    align-items: center;
+    width: 314px;
+    height: 166px;
+    background: #FCFCFC;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 28px;
+    margin-left: 40px;
+  }
+  .games:hover{
+    cursor: pointer;
+    transform: scale(1.05); 
+
+  }
+  .prevnextbutton{
+    text-align: center;
+  }

@@ -1,30 +1,35 @@
 import React from "react";
-import '../App.css';
+import '../CssComponent/Header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import EnglishName from '../images/HAMSAM SUPER APP (1).png';
-import Tvimg from '../images/Hero BG Mask (1).png';
+import englishName from '../images/HAMSAMSUPERAPP.png';
+import tvimg from '../images/HeroBGMask.png';
 import SuggestionApp from './sugApps';
 import TextExplain from "./TextExplain";
 function Header(){
-    const list = ["خانه","دیوار","بازی و سرگرمی","حساب کاربری","پشتیبانی"]
     return(
         <>
-        <div className="mainBackground">
+        <div className="main-background">
         <div className="container" dir="rtl">
             <div className="row align-items-center py-4" >
-                    <div className="col-md-3 persionName">سوپر اپلیکیشن هم سام</div>
+                    <div className="col-md-3 persion-name">سوپر اپلیکیشن هم سام</div>
                     <div className="col-md-5">
-                        <ul className="listOfHeader  d-flex gap-0 list-unstyled m-0 justify-content-center">
-                            {list.map((item , index) => {
-                                return(
-                                    <li key={index} className="col">{item}</li>
-                                )
-                            })}
-                        </ul>
+                    <nav className="navbar navbar-expand-lg navbar-light ">
+                        <button className="navbar-toggler" type="button"></button>
+                        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div className="navbar-nav">
+                            <a className="nav-item nav-link active" href="#">خانه <span class="sr-only"></span></a>
+                            <a className="nav-item nav-link" href="#">دیوار</a>
+                            <a className="nav-item nav-link" href="#">بازی و سرگرمی</a>
+                            <a className="nav-item nav-link" href="#">حساب کاربری</a>
+                            <a className="nav-item nav-link" href="#">تماس با ما</a>
+
+                        </div>
+                        </div>
+                    </nav>
                     </div>
-                <div className="col-md-2" ><img src={EnglishName}/></div>
+                <div className="col-md-2" ><img src={englishName}/></div>
                 <div className="hero">
-                    <img src={Tvimg} className="img-fluid hero-img" />
+                    <img src={tvimg} className="img-fluid hero-img" />
                     <SuggestionApp/>
                 </div>
             </div>
