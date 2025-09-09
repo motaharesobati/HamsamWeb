@@ -18,7 +18,7 @@ function Entertainment(){
         <div className="icon"><img src={icon}/></div>
         <div className="entertainment">بازی و سرگرمی در هم سام</div>
         <div className="containre">
-            <div className="row justify-content-center mt-5" dir="rtl">
+            <div className="row justify-content-center mt-5 col-md-12" dir="rtl">
                 <div className="games">
                     <div><img src={gameitem1}/></div>
                 </div>
@@ -30,7 +30,7 @@ function Entertainment(){
                 </div>
 
             </div>
-            <div className="row justify-content-center mt-5" dir="rtl">
+            <div className="row justify-content-center mt-5 col-md-12" dir="rtl">
                 <div className="games">
                     <div><img src={gameitem4}/></div>
                 </div>

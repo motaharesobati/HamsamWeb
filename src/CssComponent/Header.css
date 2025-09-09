@@ -30,7 +30,7 @@
   }
   
   .hero{
-    display: grid;
+    display: flex;
     justify-items: center;
     overflow: visible;           
   }

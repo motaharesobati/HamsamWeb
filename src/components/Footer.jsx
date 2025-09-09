@@ -8,7 +8,7 @@ function Footer() {
   return (
     <>
       <div className="row" dir="rtl">
-        <div className="box-footer col-md-5">
+        <div className="box-footer col-md-12 col-12">
           <form action="/enter" method="post" encType="multipart/form-data" style={{marginRight: "145px"}}>
             <label className="titr-of-footer" htmlFor="email" dir="rtl">
               ایمیل خود را وارد کنید
@@ -21,15 +21,10 @@ function Footer() {
               placeholder="Email"
             />
           </form>
-        </div>
-        <div className="box-footer col-md-3"></div>
-
-
-        <div className="footer col-md-4">
-            <div className="img-footer"><img src={imgfooter}/></div>
+          <div className="img-footer"><img src={imgfooter}/></div>
             <div className="text-of-footer"><img src={logofooter}/></div>
             <div className="img-samsung-smart"><img src={imgsamsungsmart}/></div>
-            <div className="img-samsung-smart"><img src={imgcopyright}/></div>
+            <div className="img-samsung"><img src={imgcopyright}/></div>
         </div>
       </div>
     </>
