@@ -1,0 +1,20 @@
+.background{
+    width: 100%;
+    margin-inline: auto;
+    background-color: #ECEEF4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img-tv{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.img-tv img{
+    margin-top: 40px;
+
+}
