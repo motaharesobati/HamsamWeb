@@ -21,7 +21,7 @@ return(
             </div>
         </div>
     </div>
-    <div className="row" dir="rtl">
+    <div className="row" style={{marginRight:"0px"}} dir="rtl">
         <div className="col-md-3"></div>
         <p className="col-md-7 main-text mt-5">در حال حاضر شرکت <span className="samsung">سامسونگ</span> این امکان را به صورت محدود فراهم کرده که صاحبان کسب و <br>
         </br>کارهای اینترنتی بتوانند از ظرفیت تلویزیون های هوشمند سامسونگ در جهت بهتر دیده شدن و<br>
