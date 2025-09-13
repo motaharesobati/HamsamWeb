@@ -2,40 +2,33 @@ import React from "react";
 import '../CssComponent/Header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import englishName from '../images/HAMSAMSUPERAPP.png';
-import tvimg from '../images/HeroBGMask.png';
-import SuggestionApp from './sugApps';
-import TextExplain from "./TextExplain";
+import { NavLink } from "react-router-dom";
+
 function Header(){
     return(
         <>
-        <div className="main-background">
+          <div className="main-background">
         <div className="container" dir="rtl">
             <div className="row align-items-center py-4" >
-                    <div className="col-md-3 persion-name">سوپر اپلیکیشن هم سام</div>
-                    <div className="col-md-5">
-                    <nav className="navbar navbar-expand-lg navbar-light ">
+                    <div className="col-md-3 col-12 persion-name">سوپر اپلیکیشن هم سام</div>
+                    <div className="col-md-5 col-12">
+                    <nav className="navbar navbar-expand-lg navbar-light">
                         <button className="navbar-toggler" type="button"></button>
                         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <a className="nav-item nav-link active" href="#">خانه <span class="sr-only"></span></a>
-                            <a className="nav-item nav-link" href="#">دیوار</a>
-                            <a className="nav-item nav-link" href="#">بازی و سرگرمی</a>
-                            <a className="nav-item nav-link" href="#">حساب کاربری</a>
-                            <a className="nav-item nav-link" href="#">تماس با ما</a>
+                            <NavLink className="nav-item nav-link active" to="/">خانه <span class="sr-only"></span></NavLink>
+                            <NavLink className="nav-item nav-link" to="/wall">دیوار</NavLink>
+                            <NavLink className="nav-item nav-link" to="/">بازی و سرگرمی</NavLink>
+                            <NavLink className="nav-item nav-link" to="/">حساب کاربری</NavLink>
+                            <NavLink className="nav-item nav-link" to="/">تماس با ما</NavLink>
 
                         </div>
                         </div>
                     </nav>
                     </div>
-                <div className="col-md-2" ><img src={englishName}/></div>
-                <div className="hero">
-                    <img src={tvimg} className="img-fluid hero-img" />
-                    <SuggestionApp/>
-                </div>
+                <div className="col-md-2 col-12" ><img src={englishName}/></div>
             </div>
         </div>
-        <TextExplain />
-
         </div>
         </>
     )

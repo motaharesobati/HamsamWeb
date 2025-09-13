@@ -1,0 +1,11 @@
+.hero{
+    display: grid;
+    justify-items: center;
+    overflow: visible;           
+  }
+  .hero-img{
+    margin-top: 40px;
+  }
+  .hero > *{
+    grid-area: 1 / 1;            
+  }
